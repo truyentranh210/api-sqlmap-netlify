@@ -2,6 +2,9 @@
   "name": "netlify-sqlcheck",
   "version": "1.0.0",
   "engines": { "node": "18.x" },
+  "scripts": {
+    "build": "echo build"
+  },
   "dependencies": {
     "axios": "^1.6.8"
   }
