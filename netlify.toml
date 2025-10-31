@@ -1,0 +1,27 @@
+[build]
+  functions = "functions"
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/checksql"
+  to = "/.netlify/functions/checksql"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/dump"
+  to = "/.netlify/functions/dump"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/status"
+  to = "/.netlify/functions/status"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/fetch"
+  to = "/.netlify/functions/fetch"
+  status = 200
+  force = true
