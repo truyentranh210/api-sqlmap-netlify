@@ -1,7 +1,8 @@
 {
-  "name": "sqlmap-integ",
+  "name": "netlify-sqlcheck",
   "version": "1.0.0",
   "type": "module",
+  "engines": { "node": "18.x" },
   "dependencies": {
     "axios": "^1.6.8"
   }
