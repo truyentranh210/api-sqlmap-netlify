@@ -2,6 +2,7 @@
   functions = "functions"
   node_bundler = "esbuild"
 
+# Các API sẵn có
 [[redirects]]
   from = "/checksql"
   to = "/.netlify/functions/checksql"
@@ -29,5 +30,12 @@
 [[redirects]]
   from = "/report"
   to = "/.netlify/functions/report"
+  status = 200
+  force = true
+
+# 🏠 Trang /home hiển thị toàn bộ chức năng
+[[redirects]]
+  from = "/home"
+  to = "/.netlify/functions/home"
   status = 200
   force = true
